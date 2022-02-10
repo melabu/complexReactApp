@@ -1,1 +1,1 @@
-# react_for_the_rest_of_us
+# SPA (single page application) using React
