@@ -1,12 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+//My Components
+import Header from "./Components/Header";
+import HomeGuest from "./components/HomeGuest";
+import Footer from "./components/Footer";
+
 function ExampleComponent() {
   return (
-    <div>
-      <h1>This is our app!</h1>
-      <p>The sky is blue.</p>
-    </div>
+    <>
+      <Header />
+      <HomeGuest />
+      <Footer />
+    </>
   );
 }
 
